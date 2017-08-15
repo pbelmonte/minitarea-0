@@ -36,12 +36,12 @@ public class Oval extends AbstractShape {
 
 	@Override
 	public double getWidth() {
-		return semiAxisX;
+		return 2 * semiAxisX;
 	}
 
 	@Override
 	public double getHeight() {
-		return semiAxisY;
+		return 2 * semiAxisY;
 	}
 
 	@Override
