@@ -13,6 +13,7 @@ public class Main {
 		Oval o = new Oval(new CartesianPoint(1.0, 1.5), 4.0, 2.0);
 		Rectangle r = new Rectangle(new CartesianPoint(10.0, 10.5), 4.0, 2.0);
 		Circle c = new Circle(new CartesianPoint(15.4, 17.0), 4.0);
+		Square s = new Square(new CartesianPoint(20.1, 22), 4.5);
 		
 		System.out.println(o.getArea());
 		System.out.println(o.getPerimeter());
@@ -31,6 +32,12 @@ public class Main {
 		System.out.println(c.getWidth());
 		System.out.println(c.getHeight());
 		System.out.println(c.toString());
+		
+		System.out.println(s.getArea());
+		System.out.println(s.getPerimeter());
+		System.out.println(s.getWidth());
+		System.out.println(s.getHeight());
+		System.out.println(s.toString());
 	}
 
 }
