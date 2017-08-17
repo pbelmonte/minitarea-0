@@ -2,6 +2,11 @@ package shapes;
 
 import geoTools.CartesianPoint;
 
+/**
+ * Represents a Rectangle
+ * @author pedro
+ *
+ */
 public class Rectangle extends AbstractShape {
 	
 	private double width;
@@ -41,7 +46,7 @@ public class Rectangle extends AbstractShape {
 
 	@Override
 	public String toString() {
-		return "Rectangulo centrado en (" + getPosition().getX() + ", " + getPosition().getY() + ")";
+		return "Rectangulo centrado en " + getPosition().toString();
 	}
 
 }

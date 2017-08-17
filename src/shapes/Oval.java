@@ -46,7 +46,7 @@ public class Oval extends AbstractShape {
 
 	@Override
 	public String toString() {
-		return "Ovalo centrado en (" + getPosition().getX() + ", " + getPosition().getY() + ")";
+		return "Ovalo centrado en " + getPosition().toString();
 	}
 	
 	

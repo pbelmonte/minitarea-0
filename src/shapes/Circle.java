@@ -2,6 +2,11 @@ package shapes;
 
 import geoTools.CartesianPoint;
 
+/**
+ * Represents a Circle
+ * @author pedro
+ *
+ */
 public class Circle extends Oval {
 	
 	/**
@@ -15,6 +20,6 @@ public class Circle extends Oval {
 	
 	@Override
 	public String toString() {
-		return "Circulo centrado en (" + getPosition().getX() + ", " + getPosition().getY() + ")";		
+		return "Circulo centrado en " + getPosition().toString();		
 	}
 }

@@ -2,6 +2,11 @@ package shapes;
 
 import geoTools.CartesianPoint;
 
+/**
+ * Represents a Square
+ * @author pedro
+ *
+ */
 public class Square extends Rectangle {
 	
 	/**
@@ -14,7 +19,7 @@ public class Square extends Rectangle {
 	}
 	
 	public String toString() {
-		return "Cuadrado centrado en (" + getPosition().getX() + ", " + getPosition().getY() + ")";
+		return "Cuadrado centrado en " + getPosition().toString();
 	}
 
 }
