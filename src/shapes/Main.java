@@ -14,6 +14,8 @@ public class Main {
 		Rectangle r = new Rectangle(new CartesianPoint(10.0, 10.5), 4.0, 2.0);
 		Circle c = new Circle(new CartesianPoint(15.4, 17.0), 4.0);
 		Square s = new Square(new CartesianPoint(20.1, 22), 4.5);
+		Triangle t = new Triangle(new CartesianPoint(29.4, 27.1), 4.0);
+		Pentagon p = new Pentagon(new CartesianPoint(36.0, 34.5), 3.0);
 		
 		System.out.println(o.getArea());
 		System.out.println(o.getPerimeter());
@@ -38,6 +40,19 @@ public class Main {
 		System.out.println(s.getWidth());
 		System.out.println(s.getHeight());
 		System.out.println(s.toString());
+		
+		System.out.println(t.getArea());
+		System.out.println(t.getPerimeter());
+		System.out.println(t.getWidth());
+		System.out.println(t.getHeight());
+		System.out.println(t.toString());
+		
+		System.out.println(p.getArea());
+		System.out.println(p.getPerimeter());
+		System.out.println(p.getWidth());
+		System.out.println(p.getHeight());
+		System.out.println(p.toString());
+		
 	}
 
 }

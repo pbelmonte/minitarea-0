@@ -14,9 +14,9 @@ public class Rectangle extends AbstractShape {
 	
 	/**
 	 * Constructor for Rectangle
-	 * @param c Center of rectangle
-	 * @param w Width of rectangle
-	 * @param h Height of rectangle
+	 * @param c Center of the rectangle
+	 * @param w Width of the rectangle
+	 * @param h Height of the rectangle
 	 */
 	public Rectangle(CartesianPoint c, double w, double h) {
 		super(c);

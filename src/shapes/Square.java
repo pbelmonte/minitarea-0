@@ -11,8 +11,8 @@ public class Square extends Rectangle {
 	
 	/**
 	 * Constructor for Square
-	 * @param c Center of square
-	 * @param s Side of square
+	 * @param c Center of the square
+	 * @param s Side of the square
 	 */
 	public Square(CartesianPoint c, double s) {
 		super(c, s, s);

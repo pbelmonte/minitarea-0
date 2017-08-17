@@ -14,9 +14,9 @@ public class Oval extends AbstractShape {
 	
 	/**
 	 * Contructor for Oval
-	 * @param c Center of oval
-	 * @param X Semi-Axis X of oval
-	 * @param Y Semi-Axis Y of oval
+	 * @param c Center of the oval
+	 * @param X Semi-Axis X of the oval
+	 * @param Y Semi-Axis Y of the oval
 	 */
 	public Oval(CartesianPoint c, double X, double Y) {
 		super(c);
